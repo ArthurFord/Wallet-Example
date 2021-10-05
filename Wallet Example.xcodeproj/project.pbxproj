@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		CEB50C55270CD3AA00F533D9 /* Wallet_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C54270CD3AA00F533D9 /* Wallet_ExampleApp.swift */; };
-		CEB50C57270CD3AA00F533D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C56270CD3AA00F533D9 /* ContentView.swift */; };
+		CEB50C57270CD3AA00F533D9 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C56270CD3AA00F533D9 /* WalletView.swift */; };
 		CEB50C59270CD3AF00F533D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB50C58270CD3AF00F533D9 /* Assets.xcassets */; };
 		CEB50C5C270CD3AF00F533D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB50C5B270CD3AF00F533D9 /* Preview Assets.xcassets */; };
+		CEB50C63270CD43600F533D9 /* backgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C62270CD43600F533D9 /* backgroundView.swift */; };
+		CEB50C65270CD46500F533D9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C64270CD46500F533D9 /* Extensions.swift */; };
+		CEB50C67270CD79100F533D9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C66270CD79100F533D9 /* HeaderView.swift */; };
+		CEB50C69270CD92400F533D9 /* DataItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C68270CD92400F533D9 /* DataItems.swift */; };
+		CEB50C6B270CDB4500F533D9 /* AccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C6A270CDB4500F533D9 /* AccountCardView.swift */; };
+		CEB50C6D270CEA6A00F533D9 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB50C6C270CEA6900F533D9 /* TransactionCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEB50C51270CD3AA00F533D9 /* Wallet Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB50C54270CD3AA00F533D9 /* Wallet_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet_ExampleApp.swift; sourceTree = "<group>"; };
-		CEB50C56270CD3AA00F533D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEB50C56270CD3AA00F533D9 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		CEB50C58270CD3AF00F533D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB50C5B270CD3AF00F533D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB50C62270CD43600F533D9 /* backgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundView.swift; sourceTree = "<group>"; };
+		CEB50C64270CD46500F533D9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CEB50C66270CD79100F533D9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CEB50C68270CD92400F533D9 /* DataItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItems.swift; sourceTree = "<group>"; };
+		CEB50C6A270CDB4500F533D9 /* AccountCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardView.swift; sourceTree = "<group>"; };
+		CEB50C6C270CEA6900F533D9 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				CEB50C54270CD3AA00F533D9 /* Wallet_ExampleApp.swift */,
-				CEB50C56270CD3AA00F533D9 /* ContentView.swift */,
+				CEB50C64270CD46500F533D9 /* Extensions.swift */,
+				CEB50C68270CD92400F533D9 /* DataItems.swift */,
+				CEB50C56270CD3AA00F533D9 /* WalletView.swift */,
+				CEB50C62270CD43600F533D9 /* backgroundView.swift */,
+				CEB50C66270CD79100F533D9 /* HeaderView.swift */,
+				CEB50C6A270CDB4500F533D9 /* AccountCardView.swift */,
+				CEB50C6C270CEA6900F533D9 /* TransactionCardView.swift */,
 				CEB50C58270CD3AF00F533D9 /* Assets.xcassets */,
 				CEB50C5A270CD3AF00F533D9 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB50C57270CD3AA00F533D9 /* ContentView.swift in Sources */,
+				CEB50C67270CD79100F533D9 /* HeaderView.swift in Sources */,
+				CEB50C57270CD3AA00F533D9 /* WalletView.swift in Sources */,
+				CEB50C69270CD92400F533D9 /* DataItems.swift in Sources */,
 				CEB50C55270CD3AA00F533D9 /* Wallet_ExampleApp.swift in Sources */,
+				CEB50C63270CD43600F533D9 /* backgroundView.swift in Sources */,
+				CEB50C6B270CDB4500F533D9 /* AccountCardView.swift in Sources */,
+				CEB50C65270CD46500F533D9 /* Extensions.swift in Sources */,
+				CEB50C6D270CEA6A00F533D9 /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
